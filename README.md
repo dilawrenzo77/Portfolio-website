@@ -1,4 +1,4 @@
-# This ia a FrontEnd Project for my Portfolio Website
+# This is a FrontEnd Project for my Portfolio Website
 
 ## This Project was created and styled with NextJs and tailwind
 
