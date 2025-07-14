@@ -36,7 +36,7 @@ const stackDetails = [
     },
     {
         stackName: "HardHat",
-        symbol:"/Hardhat-Icon--Streamline-svg-Logos.svg"
+        symbol:"/Hardhat-Icon--Streamline-Svg-Logos.svg"
 
     },
     {
