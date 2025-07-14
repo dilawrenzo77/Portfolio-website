@@ -33,7 +33,7 @@ export default function Stack() {
         </div>
         <div className="flex items-center justify-center gap-4 flex-wrap">
             <div className="flex items-center hover:scale-110 transition-transform duration-300 justify-center gap-4 py-1 px-4 rounded-full">
-                <Image src="/javascript--Streamline-Svg-Logos.svg" width={20} height={20} className="rounded-full" alt="language Image"/>
+                <Image src="/Javascript--Streamline-Svg-Logos.svg" width={20} height={20} className="rounded-full" alt="language Image"/>
                 <p>Javascript</p>
             </div>
             <div className="flex items-center justify-center hover:scale-110 transition-transform duration-300 gap-4 py-1 px-4 rounded-full">
