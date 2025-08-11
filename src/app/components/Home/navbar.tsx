@@ -17,8 +17,8 @@ export default function Navbar() {
     const [isDark, setIsDark] = useState(false);
 
     return(
-        <nav className="invisible sm:visible mt-1 lg:mt-3 xl:mt-4">
-            <div className="flex items-center justify-center gap-4 w-fit mx-auto px-8 md:gap-5 lg:gap-7 xl:gap-8 py-1 rounded-full">
+        <nav className="invisible sm:visible mt-1 lg:mt-3 xl:mt-4 ">
+            <div className="flex items-start justify-center gap-4 w-fit mx-auto px-8 md:gap-5 lg:gap-7 xl:gap-8 py-1 rounded-full">
                 <Link activeClass="active" to="projects" spy={true} smooth={true} offset={-50} duration={800}>
                     <span className="scroll-container hover-scroll">
                         <span className="scroll-text text-sm font-semibold sm:text-md lg:text-lg xl:text-xl hover:text-muted cursor-pointer" data-text="Projects">Projects</span>

@@ -15,16 +15,8 @@ export default function Stack() {
         <p className="text-xl font-semibold lg:text-2xl">Technical Stack</p>
         <div className="flex flex-wrap justify-center gap-4 px-2 mb-10">
             {stackDetails.map((stack, index) => {
-                return(<div 
-                data-aos="fade-up" 
-                data-aos-duration="1000" 
-                data-aos-anchor-placement="top-center" 
-                data-aos-easing="ease" 
-                data-aos-once="true" 
-                data-aos-delay={index*100}
-                key={index} 
-                className="bg-accent/30 group backdrop-blur-sm px-1.5 py-1 rounded-lg flex flex-col items-center justify-center gap-2 relative">
-                        <Image src={stack.symbol} width={70} height={150} alt="stack image" className="object-cover group-hover:scale-105 transition-transform duration-300"/>
+                return(<div key={index} className="bg-accent/30 group backdrop-blur-sm px-1.5 py-1 rounded-lg flex flex-col items-center justify-center gap-2 relative">
+                        <Image src={stack.symbol} width={40} height={90} alt="stack image" className="object-cover group-hover:scale-105 transition-transform duration-300"/>
                         <div className="flex items-center justify-center absolute invisible group-hover:visible botton-0 left-0 right-0 translate-y-full group-hover:translate-y-0 transition-transform duration-500 bg-white dark:bg-black/70">
                             <p className="text-xs">{stack.stackName}</p>
                         </div>
@@ -41,8 +33,8 @@ export default function Stack() {
                 <p>Solidity</p>
             </div>
             <div className="flex items-center justify-center hover:scale-110 transition-transform duration-300 gap-4 py-1 px-4 rounded-full">
-                <Image src="/Python--Streamline-Svg-Logos.svg" width={20} height={20} className="rounded-full" alt="language Image"/>
-                <p>Python</p>
+                <Image src="/php-logo-svgrepo-com.svg" width={20} height={20} className="rounded-full" alt="language Image"/>
+                <p>PHP</p>
             </div>
             <div className="flex items-center justify-center hover:scale-110 transition-transform duration-300 gap-4 py-1 px-4 rounded-full">
                 <Image src="/html-5-svgrepo-com.svg" width={20} height={20} className="rounded-full" alt="language Image"/>

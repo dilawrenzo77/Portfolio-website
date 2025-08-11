@@ -20,6 +20,11 @@ const stackDetails = [
 
     },
     {
+        stackName: "Laravel",
+        symbol:"/laravel-svgrepo-com.svg"
+
+    },
+    {
         stackName: "Postgres",
         symbol:"/postgresql-logo-svgrepo-com.svg"
 
