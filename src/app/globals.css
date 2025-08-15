@@ -115,6 +115,10 @@ body {
   transition: 
     background var(--transition-duration) var(--transition-timing),
     color var(--transition-duration) var(--transition-timing);
+  padding: 0;
+  margin-inline: auto;
+  outline: border-box;
+  overflow-x: hidden;
 }
 
 @keyframes text-scroll {

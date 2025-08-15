@@ -24,7 +24,7 @@ export default function RootLayout({
     <html lang="en">
       <body
         suppressHydrationWarning={true}
-        className={`${JetBrains.variable}  antialiased xl:container xl:mx-auto text-primary`}
+        className={`${JetBrains.variable}  antialiased text-primary mx-auto`}
       >
         <Navbar />
         {children}

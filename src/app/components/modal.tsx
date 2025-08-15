@@ -32,13 +32,13 @@ export default function Modal({data}: {
                     {data.keyFeatures.map((feature,index) => <p key={index} className="text-[0.6rem]">{feature}</p>)}
                 </div>
             </div>
-            <div className="flex items-center justify gap-6 bg-accent rounded-md w-fit px-6 py-2">
+            <div className="flex items-center justify gap-6 bg-accent w-fit px-6 py-1">
                 <Link href={data.projectLink}><p className="text-xs hover:text-muted hover:scale-105">Link</p></Link>
                 <Link href={data.projectGithub}><p className="text-xs hover:text-muted hover:scale-105">GitHub</p></Link>
             </div>
             <p className="text-sm mb-2 font-bold">Project Images</p>
-            <div className="flex flex-col justify-center items-center gap-2 sm:grid sm:grid-cols-2">
-                {data.projectImages.map((img,index) => <Image key={index} src={img} width={300} height={150} alt="our project Image" className="object-cover"/>)}
+            <div className="flex flex-col justify-center items-center gap-2 sm:grid sm:grid-cols-2 invisible sm:visible">
+                {data.projectImages.map((img,index) => <Image key={index} src={img} width={300} height={150} alt="our project Image" className="object-cover border-2 border-black/90 dark:border-white"/>)}
             </div>
 </div>)
 

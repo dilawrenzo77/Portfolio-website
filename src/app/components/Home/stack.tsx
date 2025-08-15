@@ -12,13 +12,13 @@ export default function Stack() {
     }
 
     return(<div className=" w-full flex flex-col items-center justify-center gap-4">
-        <p className="text-xl font-semibold lg:text-2xl">Technical Stack</p>
+        <p className="text-2xl font-semibold tracking-widest lg:text-4xl">Technical Stack</p>
         <div className="flex flex-wrap justify-center gap-4 px-2 mb-10">
             {stackDetails.map((stack, index) => {
                 return(<div key={index} className="bg-accent/30 group backdrop-blur-sm px-1.5 py-1 rounded-lg flex flex-col items-center justify-center gap-2 relative">
                         <Image src={stack.symbol} width={40} height={90} alt="stack image" className="object-cover group-hover:scale-105 transition-transform duration-300"/>
                         <div className="flex items-center justify-center absolute invisible group-hover:visible botton-0 left-0 right-0 translate-y-full group-hover:translate-y-0 transition-transform duration-500 bg-white dark:bg-black/70">
-                            <p className="text-xs">{stack.stackName}</p>
+                            <p className="text-[0.5rem]">{stack.stackName}</p>
                         </div>
                     </div>)
             })}

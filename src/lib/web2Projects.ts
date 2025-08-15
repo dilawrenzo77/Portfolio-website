@@ -83,7 +83,7 @@ const web2Projects = [
    },
    {
 	projectId:  2, 
-	projectName: "Binance Landing Page Clone",
+	projectName: "Binance Landing Clone",
 	projectTitle: "FrontEnd",
 	projectDescription: "A close clone of the Binance Finanace Front Page",
     projectDetails: "This project is a simple responsive frontpage close clone of the BINANCE landing page, built using Nextjs. The goal of this project was to closely replicate the design and layout of binance's official website while focusing on designing, clean code, and modern FrontEnd practices. This is a purely frontend project, meaning no backend functionality is included.",
@@ -96,7 +96,7 @@ const web2Projects = [
    },
    {
 	projectId:  3, 
-	projectName: "Cologne Company's Landing Page",
+	projectName: "E-commerce Landing Page",
 	projectTitle: "FrontEnd",
 	projectDescription: "This is the Landing page of a Cologne company",
     projectDetails: "This is a frontEnd project of a modern day landing page for a fictional cologne company created with Nextjs and tailwind-CSS. It is a clean,user friendly, responsive and modern day designed landing page.",
@@ -109,7 +109,7 @@ const web2Projects = [
    },
    {
 	projectId:  4, 
-	projectName: "Apple.com Landing Page clone",
+	projectName: "Apple.com Landing clone",
 	projectTitle: "FrontEnd",
 	projectDescription: "apple.com landing page clone",
     projectDetails: "This project is a simple non-responsive frontend clone of the Apple.com landing page, built using React. The goal of this project was to replicate the design and layout of Apple's official website while focusing on designing, clean code, and modern React practices. This is a purely frontend project, meaning no backend functionality is included.",
@@ -124,7 +124,7 @@ const web2Projects = [
 	projectId:  5, 
 	projectName: "Restaurant Landing Page",
 	projectTitle: "FrontEnd",
-	projectDescription: "A modern restaurant's Landing Page",
+	projectDescription: "Restaurant's Landing Page",
     projectDetails: "This is a personal project of a modern day restaurant landing page. It is a sleek,user friendly, responsive and modern day designed landing page.",
 	projectTools: ["React", "CSS"],
     keyFeatures: ["Responsive design: designed to be responsive taking into consideration various device sizes"],

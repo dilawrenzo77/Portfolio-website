@@ -1,7 +1,5 @@
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa6";
-import AOS from 'aos';
-import 'aos/dist/aos.css'; 
 import DecryptedText   from "../encryttext";
 import Link from "next/link";
 
@@ -9,15 +7,12 @@ import Link from "next/link";
 
 
 export default function Hero() {
-    if (typeof window !== 'undefined') {
-        AOS.init();
-    }
 
     return(<div className="w-full px-4 gap-7">
             <div className="flex flex-col items-center justify-center gap-4 sm:gap-5 md:gap-6 lg:gap-7">
-            <p className="text-lg text-center">Full-Stack Web/Ethereum Developer</p>
+            <p className="text-lg text-center font-thin">Full-Stack Web/Ethereum Developer</p>
             <span className="text-md">Name: <span className="text-purple-700 dark:text-[#e500a4] text-xl">&#123;</span></span>
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-5">
+            <div className="flex flex-wrap items-center justify-center gap-5">
                 <DecryptedText text="Mbata" className="text-6xl"/>   
                 <DecryptedText text="Lawrence" className="text-6xl"/>     
             </div> 

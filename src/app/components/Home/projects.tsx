@@ -15,8 +15,8 @@ export default function Projects() {
     return(
         <div id="projects" className="flex flex-col items-center justify-center gap-8 w-full py-4 mx-auto">
         <div className="flex flex-col items-center justify-center gap-5">
-            <p className="text-xl font-semibold lg:text-2xl">Top Projects</p>
-            <div className="px-4 flex flex-wrap justify-center items-center gap-5 w-full mx-auto">
+            <p className="text-2xl font-semibold tracking-widest lg:text-4xl">Top Projects</p>
+            <div className="px-4 flex flex-wrap justify-center items-start gap-5 w-full mx-auto">
                 {Web2Projects.map((item) => {
                     return(
                         <Tooltip key={item.projectId}>
@@ -29,9 +29,9 @@ export default function Projects() {
                 })}
             </div>
         </div>
-        <div className="flex flex-col items-center justify-cente gap-5">
-            <p className="text-md tracking-widest sm:text-lg">Top Web3 Projects</p>
-            <div className="px-4 flex flex-wrap justify-center items-center gap-5 mx-auto">
+        <div className="flex flex-col items-center justify-center gap-5">
+            <p className="text-2xl tracking-widest font-semibold lg:text-4xl">Top Web3 Projects</p>
+            <div className="px-4 flex flex-wrap justify-center items-start gap-5 mx-auto">
                 {Web3Projects.map((item) => {
                     return(
                     <Tooltip key={item.projectId}>
